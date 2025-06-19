@@ -1,54 +1,53 @@
-# Sistema de Suporte à Decisão - Perifericum 🛠️📊
+# Decision Support System – Perifericum
 
-Este repositório contém os principais artefatos desenvolvidos no âmbito do projeto de Data Warehouse para a loja de eletrónica **Perifericum**, realizado no contexto do perfil de **Sistemas de Armazéns de Dados** do Mestrado em Engenharia Informática da Universidade do Minho.
-
----
-
-## 📈 Avaliação por Componentes
-
-| Componente                                                             | Nota      |
-|-----------------------------------------------------------------------|-----------|
-| Conceção e Implementação de Armazéns de Dados                         | **18 valores** |
-| Sistemas de Extração, Transformação e Carregamento de Dados (ETL)     | **17 valores** |
-| Aquisição de Conhecimento em Armazéns de Dados                        | *Por atribuir* |
+This repository contains the primary artifacts developed within the scope of the Data Warehouse project for the electronics retailer **Perifericum**, undertaken as part of the **Data Warehouse Systems** specialization of the Master's Degree in Computer Engineering at the University of Minho.
 
 ---
 
-## 📌 Objetivo
+## Component Evaluation
 
-Desenvolver um sistema de suporte à decisão com foco na **caracterização de perfis de clientes** e **personalização de ofertas**, utilizando um **Data Warehouse** baseado na metodologia **Kimball** e integrando ferramentas como **Apache NiFi**, **MySQL**, **Power BI**, **Pandas** e **Scikit-learn**.
-
----
-
-## 🔄 Pipeline ETL
-
-O processo de integração de dados foi realizado com o **Apache NiFi**, permitindo a ingestão de dados de múltiplas fontes:
-
-- 📁 Excel: vendas físicas (2010–2020)
-- 🧾 JSON: vendas online (2021–2025), catálogo de produtos
-- 🗃️ MySQL: base de clientes
-
-O ficheiro `Projeto_SDW_nifi.json` contém a pipeline completa para:
-
-- Extração e limpeza de dados
-- Mapeamento por tabelas de equivalência
-- Carregamento incremental no DW (modelo em estrela)
-  
----
-
-## 🧠 Análise de Dados
-
-A pasta `analysis/` inclui:
-
-- Segmentação de clientes com **K-Means**
-- Análise RFM
-- Visualização da distribuição de clusters
-- Identificação de perfis de cliente (leal, ocasional, em risco)
-
+| Component                                                        | Grade        |
+|-----------------------------------------------------------------|--------------|
+| Design and Implementation of Data Warehouses                    | 18/20        |
+| Extraction, Transformation, and Loading (ETL) Systems           | 17/20        |
+| Knowledge Acquisition in Data Warehousing                        | 18/20       |
 
 ---
 
-## 👥 Equipa
+## Objective
+
+The objective of this project is to develop a decision support system focused on **customer profiling** and **personalization of offers**, utilizing a **Data Warehouse** designed according to the **Kimball methodology** and integrating tools such as **Apache NiFi**, **MySQL**, **Power BI**, **Pandas**, and **Scikit-learn**.
+
+---
+
+## ETL Pipeline
+
+Data integration was performed using **Apache NiFi**, enabling the ingestion of data from multiple sources:
+
+- Excel files: in-store sales (2010–2020)  
+- JSON files: online sales (2021–2025) and product catalog  
+- MySQL database: customer base  
+
+The file `Projeto_SDW_nifi.json` contains the complete pipeline for:
+
+- Data extraction and cleansing  
+- Mapping via equivalence tables  
+- Incremental loading into the Data Warehouse (star schema model)  
+
+---
+
+## Data Analysis
+
+The `analysis/` directory contains:
+
+- Customer segmentation through **K-Means clustering**  
+- RFM (Recency, Frequency, Monetary) analysis  
+- Visualization of cluster distributions  
+- Identification and characterization of customer profiles (loyal, occasional, at-risk)  
+
+---
+
+## Team
 
 - António Silva — PG57867  
 - David Teixeira — PG55929  
@@ -58,6 +57,6 @@ A pasta `analysis/` inclui:
 
 ---
 
-## 📌 Notas Finais
+## Final Remarks
 
-Este projeto foi desenvolvido com fins académicos e demonstra uma solução completa de integração, análise e visualização de dados para apoio à decisão estratégica num contexto de retalho tecnológico.
+This project was developed for academic purposes and demonstrates a comprehensive solution for data integration, analysis, and visualization to support strategic decision-making in a technological retail context.
