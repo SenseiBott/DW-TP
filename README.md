@@ -38,7 +38,7 @@ The file `Projeto_SDW_nifi.json` contains the complete pipeline for:
 
 ## Data Analysis
 
-The `analysis/` directory contains:
+The `customer_segmentation_recommendation.ipynb` file contains:
 
 - Customer segmentation through **K-Means clustering**  
 - RFM (Recency, Frequency, Monetary) analysis  
